@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="306.0" prefWidth="447.0" style="-fx-background-color: lightblue;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.FXMLCadastroAlunoController">
+   <children>
+      <Label layoutX="107.0" layoutY="76.0" style="-fx-font-family: arial norrow;" text="Número" />
+      <Label layoutX="107.0" layoutY="112.0" style="-fx-font-family: arial norrow;" text="Nome" />
+      <Label layoutX="111.0" layoutY="186.0" prefHeight="17.0" prefWidth="26.0" text="Sexo" />
+      <Button fx:id="btSalvar" layoutX="158.0" layoutY="245.0" mnemonicParsing="false" onAction="#salvar" style="-fx-background-radius: 40px;" text="Cadastrar aluno" />
+      <TextField fx:id="txtNumero" layoutX="176.0" layoutY="72.0" style="-fx-background-radius: 25px;" />
+      <TextField fx:id="txtNome" layoutX="176.0" layoutY="108.0" style="-fx-background-radius: 25px;" />
+      <RadioButton fx:id="rbM" layoutX="176.0" layoutY="186.0" mnemonicParsing="false" text="M" />
+      <RadioButton fx:id="rbF" layoutX="179.0" layoutY="212.0" mnemonicParsing="false" text="F" />
+      <Label layoutX="139.0" layoutY="22.0" style="-fx-font-size: 20px; -fx-font-family: arial narrow;" text="Cadastro de alunos" />
+      <Button fx:id="btSair" layoutX="291.0" layoutY="245.0" mnemonicParsing="false" onAction="#sair" style="-fx-background-radius: 40px;" text="Sair" />
+      <Label layoutX="104.0" layoutY="153.0" style="-fx-font-family: arial norrow;" text="Projeto" />
+      <TextField fx:id="txtProjeto" layoutX="176.0" layoutY="149.0" style="-fx-background-radius: 25px;" />
+   </children>
+</AnchorPane>

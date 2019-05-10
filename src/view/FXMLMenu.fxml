@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: lightblue;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.FXMLMenuController">
+   <children>
+      <Button fx:id="btnAluno" layoutX="225.0" layoutY="200.0" mnemonicParsing="false" onAction="#cadastrarAluno" style="-fx-background-radius: 25px;" text="Cadastrar projetos de aluno" />
+      <Button fx:id="btnProfessor" layoutX="215.0" layoutY="260.0" mnemonicParsing="false" onAction="#cadastrarProfessor" style="-fx-background-radius: 25px;" text="Cadastrar projetos de Professor" />
+      <Label layoutX="175.0" layoutY="105.0" style="-fx-font-size: 20px; -fx-font-family: century gothic;" text="O que voce deseja cadastar?" />
+   </children>
+</AnchorPane>
